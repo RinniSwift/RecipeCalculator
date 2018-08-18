@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A42EED612109102E0040B26F /* tableViewCell.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A42EED602109102E0040B26F /* tableViewCell.storyboard */; };
 		A45F13FD21059AB40027AE4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45F13FC21059AB40027AE4F /* AppDelegate.swift */; };
 		A45F13FF21059AB40027AE4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45F13FE21059AB40027AE4F /* ViewController.swift */; };
 		A45F140221059AB40027AE4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45F140021059AB40027AE4F /* Main.storyboard */; };
 		A45F140421059AB50027AE4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45F140321059AB50027AE4F /* Assets.xcassets */; };
 		A45F140721059AB50027AE4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45F140521059AB50027AE4F /* LaunchScreen.storyboard */; };
+		A4E411F82107F6EF00FFAAA4 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4E411F72107F6EF00FFAAA4 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A42EED602109102E0040B26F /* tableViewCell.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = tableViewCell.storyboard; sourceTree = "<group>"; };
 		A45F13F921059AB40027AE4F /* Recipe-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45F13FC21059AB40027AE4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A45F13FE21059AB40027AE4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		A45F140321059AB50027AE4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A45F140621059AB50027AE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A45F140821059AB50027AE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4E411F72107F6EF00FFAAA4 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		A45F13F021059AB40027AE4F = {
 			isa = PBXGroup;
 			children = (
+				A4E411F42107DFFC00FFAAA4 /* storyboards */,
 				A45F13FB21059AB40027AE4F /* Recipe-Calculator */,
 				A45F13FA21059AB40027AE4F /* Products */,
 			);
@@ -56,12 +61,21 @@
 			children = (
 				A45F13FC21059AB40027AE4F /* AppDelegate.swift */,
 				A45F13FE21059AB40027AE4F /* ViewController.swift */,
-				A45F140021059AB40027AE4F /* Main.storyboard */,
 				A45F140321059AB50027AE4F /* Assets.xcassets */,
 				A45F140521059AB50027AE4F /* LaunchScreen.storyboard */,
 				A45F140821059AB50027AE4F /* Info.plist */,
 			);
 			path = "Recipe-Calculator";
+			sourceTree = "<group>";
+		};
+		A4E411F42107DFFC00FFAAA4 /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A4E411F72107F6EF00FFAAA4 /* Storyboard.storyboard */,
+				A45F140021059AB40027AE4F /* Main.storyboard */,
+				A42EED602109102E0040B26F /* tableViewCell.storyboard */,
+			);
+			path = storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,7 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A42EED612109102E0040B26F /* tableViewCell.storyboard in Resources */,
 				A45F140721059AB50027AE4F /* LaunchScreen.storyboard in Resources */,
+				A4E411F82107F6EF00FFAAA4 /* Storyboard.storyboard in Resources */,
 				A45F140421059AB50027AE4F /* Assets.xcassets in Resources */,
 				A45F140221059AB40027AE4F /* Main.storyboard in Resources */,
 			);
